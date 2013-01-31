@@ -22,8 +22,8 @@
 #define DWG_H
 
 #ifdef __cplusplus
-//extern "C"
-//  {
+extern "C"
+  {
 #endif
 
 #define BITCODE_DOUBLE double
@@ -2905,7 +2905,7 @@ double dwg_page_y_min(Dwg_Data *dwg);
 double dwg_page_y_max(Dwg_Data *dwg);
 
 #ifdef __cplusplus
-//}
+}
 #endif
 
 #endif
