@@ -34,6 +34,12 @@ http://www.gnu.org/software/libredwg
 
 == Building and installing the library ==
 
+You need the following dependencies:
+- Basic development tools (gcc, autoconf and libtool)
+- SWIG 1.7+
+- TeXinfo
+- Python development headers (debian: python-dev; yum: python-devel)
+
 See INSTALL for generic instructions.  Basically, you do:
 
 $ ./autogen.sh (if you checked out the source code from git)
